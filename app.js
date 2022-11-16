@@ -17,3 +17,11 @@ btnSi.addEventListener('click', function(e) {
     const cancion = new Audio('img\\George Michael  Careless Whisper Official Video.mp3');
     cancion.play();
  });
+
+ botones = document.getElementsByTagName('button');
+ console.log(botones[0]);
+
+window.addEventListener('beforeunload', (event) => {
+    event.preventDefault();
+    event.returnValue = "";
+})
