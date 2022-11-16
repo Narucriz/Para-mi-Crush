@@ -14,6 +14,6 @@ btnSi.addEventListener('click', function(e) {
     alert('Sabía que dirias que SI. Casemonos ya y tengamos hijos. Te amoo!!!!! ❤')
 
     divModoSexo.style.display = 'block';
-    const cancion = new Audio('img\\y2mate.com - George Michael  Careless Whisper Official Video.mp3');
+    const cancion = new Audio('img\\George Michael  Careless Whisper Official Video.mp3');
     cancion.play();
  });
